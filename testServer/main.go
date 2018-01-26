@@ -1,7 +1,7 @@
 package main
 
-import "github.com/Atticus08/GoLangFun/GoREST/mux"
+import "github.com/Atticus08/GoLangFun/GoREST/serveFiles"
 
 func main() {
-	customMux.InitMux(":8080")
+	serveFiles.RunFileServer(":8080")
 }
